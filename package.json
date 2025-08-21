@@ -1,0 +1,21 @@
+{
+  "name": "remote-components-nextjs-app",
+  "version": "1.0.0",
+  "description": "Monorepo for remote components with Next.js apps",
+  "private": true,
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:components": "pnpm --filter components dev",
+    "dev": "pnpm --parallel --filter web --filter components dev",
+    "build:web": "pnpm --filter web build",
+    "build:components": "pnpm --filter components build",
+    "build": "pnpm --parallel --filter web --filter components build",
+    "start:web": "pnpm --filter web start",
+    "start:components": "pnpm --filter components start",
+    "start": "pnpm --parallel --filter web --filter components start"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "workspaces": [
+    "apps/*"
+  ]
+}

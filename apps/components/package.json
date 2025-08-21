@@ -1,0 +1,28 @@
+{
+  "name": "components",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack --port 4000",
+    "build": "next build --turbopack",
+    "start": "next start --port 4000",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "next": "catalog:",
+    "remote-components": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "catalog:",
+    "@eslint/eslintrc": "^3"
+  }
+}

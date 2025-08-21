@@ -1,0 +1,14 @@
+packages:
+  - apps/*
+
+catalog:
+  eslint-config-next: ^15.5.0
+  next: ^15.5.0
+  react: 19.1.1
+  react-dom: 19.1.1
+  remote-components: 0.0.13
+
+onlyBuiltDependencies:
+  - "@tailwindcss/oxide"
+  - "sharp"
+  - "unrs-resolver"
